@@ -29,9 +29,9 @@ pages also have print buttons for submitting a print request for the given map.
 To experiment with these pages:
 
 1. Open a terminal
-2. `./gradlew jettyRunForeground`
+2. `./gradlew examples:jettyRun`
 3. Open a web browser
-4. Enter `http://localhost:9876/e2egeoserver` in the location input
+4. Enter `http://localhost:8080/print-servlet` in the location input
 
 The main page contains a list of all the pages and provides links to the respective pages.  Each page has a short description
 explaining what should be visible and printed.
